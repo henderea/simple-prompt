@@ -8,8 +8,8 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
+    "@zeit/ncc": "^0.17.4",
     "inquirer": "^6.2.2",
-    "ncc": "^0.3.6",
     "yargs": "^13.2.2"
   },
   "scripts": {
