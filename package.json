@@ -9,8 +9,7 @@
   "private": false,
   "devDependencies": {
     "@zeit/ncc": "^0.18.0",
-    "inquirer": "^6.3.1",
-    "yargs": "^13.2.2"
+    "arg": "^4.1.0"
   },
   "scripts": {
     "ncc:build": "yarn ncc:build:release",
