@@ -30,6 +30,10 @@ const green = style(32);
 
 message = `${green}?${reset} ${bold}${message}${reset}`
 
+rl.addListener('SIGINT', () => {
+    process.exit(130);
+});
+
 rl.question(message, answer => {
     process.stdout.write(answer);
     rl.close();
